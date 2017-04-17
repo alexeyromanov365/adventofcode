@@ -13,7 +13,7 @@ class FileReader
   end
 
   def moves
-  	@moves = raw_moves.map {|el| Move.new(el)}
+    @moves = raw_moves.map { |el| Move.new(el) }
   end
 
 end
